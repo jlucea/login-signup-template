@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  LoginTemplate
+
+  Created by Jaime Lucea on 28/2/23.
+  
+*/
+
+
+/* Literals used in the welcome, signup and login screens */
+
+/* Welcome screen button labels */
+"LOGIN_BUTTON_LABEL" = "Acceder";
+"SIGNUP_BUTTON_LABEL" = "Registro";
+"SIGNUP_LATER_TEXT" = "Más tarde";
+
+/* Signup screen */
+
+// Text field placeholders
+"PLACEHOLDER_NAME_TEXTFIELD" = "Nombre";
+"PLACEHOLDER_EMAIL_TEXFIELD" = "Email";
+"PLACEHOLDER_PASSWORD_TEXTFIELD" = "Contraseña";
+
+// Signup button label
+"CREATE_ACCOUNT_BUTTON_LABEL" = "Crear cuenta";
+
+"LEGAL_WARNING_TEXT" = "Si continúas aceptas las condiciones de uso y la política de privacidad";
+
+// Validation error messages
+"VALIDATION_TEXT_NAME_REQUIRED" = "Es necesario indicar un nombre";
+"VALIDATION_TEXT_EMAIL" = "Email inválido";
+"VALIDATION_PASSWORD_LENGHT" = "Contraseña debe tener al menos 8 símbolos";
+"VALIDATION_PASSWORD_FORMAT" = "Password must contain at least symbol, a number and large and small letters";
