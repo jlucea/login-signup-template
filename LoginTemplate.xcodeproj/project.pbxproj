@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F1573232D50E4620059A84A /* SignupOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1573222D50E4620059A84A /* SignupOptionsView.swift */; };
 		6F20EB7A29ADFB6C002DFD49 /* LoginTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EB7929ADFB6C002DFD49 /* LoginTemplateApp.swift */; };
 		6F20EB7E29ADFB6C002DFD49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F20EB7D29ADFB6C002DFD49 /* Assets.xcassets */; };
 		6F20EB8129ADFB6C002DFD49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F20EB8029ADFB6C002DFD49 /* Preview Assets.xcassets */; };
@@ -17,21 +18,24 @@
 		6F20EB9D29ADFD1D002DFD49 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EB9729ADFD1D002DFD49 /* WelcomeView.swift */; };
 		6F20EB9E29ADFD1D002DFD49 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EB9829ADFD1D002DFD49 /* LoginView.swift */; };
 		6F20EB9F29ADFD1D002DFD49 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EB9929ADFD1D002DFD49 /* SignupView.swift */; };
-		6F20EBA029ADFD1D002DFD49 /* Components in Resources */ = {isa = PBXBuildFile; fileRef = 6F20EB9A29ADFD1D002DFD49 /* Components */; };
 		6F20EBA429ADFD93002DFD49 /* AuthenticationServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EBA329ADFD93002DFD49 /* AuthenticationServiceProtocol.swift */; };
 		6F20EBA729ADFE1C002DFD49 /* UserCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EBA629ADFE1C002DFD49 /* UserCredentials.swift */; };
 		6F20EBA929ADFE96002DFD49 /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EBA829ADFE96002DFD49 /* LoginResult.swift */; };
 		6F20EBAB29AE0240002DFD49 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EBAA29AE0240002DFD49 /* AuthenticationService.swift */; };
 		6F20EBAD29AE03D3002DFD49 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EBAC29AE03D3002DFD49 /* ButtonStyle.swift */; };
-		6F20EBB129AE040F002DFD49 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EBB029AE040F002DFD49 /* TextFieldStyle.swift */; };
 		6F20EBB429AE0497002DFD49 /* SignupServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EBB329AE0497002DFD49 /* SignupServiceProtocol.swift */; };
 		6F20EBB629AE04E8002DFD49 /* SignupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EBB529AE04E8002DFD49 /* SignupData.swift */; };
 		6F20EBB829AE051F002DFD49 /* SignupResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EBB729AE051F002DFD49 /* SignupResult.swift */; };
 		6F20EBBA29AE058C002DFD49 /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EBB929AE058C002DFD49 /* SignupService.swift */; };
 		6F20EBBD29AE071A002DFD49 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F20EBBF29AE071A002DFD49 /* Localizable.strings */; };
+		6F6EEFEF2D4E96E400D3405D /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6EEFEE2D4E96D900D3405D /* AppFonts.swift */; };
+		6F6EEFF22D4E97C200D3405D /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6EEFF12D4E97BE00D3405D /* AppColors.swift */; };
+		6F7F96172D4CD9B600D4178B /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F96162D4CD9B600D4178B /* TextFieldStyle.swift */; };
+		6F7F961B2D4CDE9C00D4178B /* RevealableSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F961A2D4CDE9C00D4178B /* RevealableSecureField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F1573222D50E4620059A84A /* SignupOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupOptionsView.swift; sourceTree = "<group>"; };
 		6F20EB7629ADFB6C002DFD49 /* LoginTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F20EB7929ADFB6C002DFD49 /* LoginTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTemplateApp.swift; sourceTree = "<group>"; };
 		6F20EB7D29ADFB6C002DFD49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,19 +47,21 @@
 		6F20EB9729ADFD1D002DFD49 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		6F20EB9829ADFD1D002DFD49 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6F20EB9929ADFD1D002DFD49 /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
-		6F20EB9A29ADFD1D002DFD49 /* Components */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Components; sourceTree = "<group>"; };
 		6F20EBA329ADFD93002DFD49 /* AuthenticationServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationServiceProtocol.swift; sourceTree = "<group>"; };
 		6F20EBA629ADFE1C002DFD49 /* UserCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredentials.swift; sourceTree = "<group>"; };
 		6F20EBA829ADFE96002DFD49 /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
 		6F20EBAA29AE0240002DFD49 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		6F20EBAC29AE03D3002DFD49 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
-		6F20EBB029AE040F002DFD49 /* TextFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
 		6F20EBB329AE0497002DFD49 /* SignupServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupServiceProtocol.swift; sourceTree = "<group>"; };
 		6F20EBB529AE04E8002DFD49 /* SignupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupData.swift; sourceTree = "<group>"; };
 		6F20EBB729AE051F002DFD49 /* SignupResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupResult.swift; sourceTree = "<group>"; };
 		6F20EBB929AE058C002DFD49 /* SignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupService.swift; sourceTree = "<group>"; };
 		6F20EBBE29AE071A002DFD49 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6F20EBC029AE0723002DFD49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F6EEFEE2D4E96D900D3405D /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		6F6EEFF12D4E97BE00D3405D /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		6F7F96162D4CD9B600D4178B /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		6F7F961A2D4CDE9C00D4178B /* RevealableSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealableSecureField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F1573242D50E4670059A84A /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				6F20EB9929ADFD1D002DFD49 /* SignupView.swift */,
+				6F20EB8E29ADFCE8002DFD49 /* SignupViewModel.swift */,
+				6F1573222D50E4620059A84A /* SignupOptionsView.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		6F1573252D50FC670059A84A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6F20EB9829ADFD1D002DFD49 /* LoginView.swift */,
+				6F20EB8F29ADFCE8002DFD49 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		6F20EB6D29ADFB6C002DFD49 = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +116,6 @@
 			children = (
 				6F20EBA529ADFDD1002DFD49 /* Model */,
 				6F20EB9529ADFD0F002DFD49 /* Views */,
-				6F20EB8C29ADFCD7002DFD49 /* ViewModel */,
 				6F20EBA229ADFD78002DFD49 /* Service */,
 				6F20EB8B29ADFBDA002DFD49 /* App */,
 				6F20EB7D29ADFB6C002DFD49 /* Assets.xcassets */,
@@ -116,25 +140,18 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		6F20EB8C29ADFCD7002DFD49 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				6F20EB8F29ADFCE8002DFD49 /* LoginViewModel.swift */,
-				6F20EB8E29ADFCE8002DFD49 /* SignupViewModel.swift */,
-				6F20EB9329ADFCF4002DFD49 /* FieldValidator.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		6F20EB9529ADFD0F002DFD49 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6F20EBB229AE045C002DFD49 /* Style */,
-				6F20EB9A29ADFD1D002DFD49 /* Components */,
-				6F20EB9629ADFD1C002DFD49 /* HomeView.swift */,
-				6F20EB9829ADFD1D002DFD49 /* LoginView.swift */,
-				6F20EB9929ADFD1D002DFD49 /* SignupView.swift */,
+				6F1573252D50FC670059A84A /* Login */,
+				6F1573242D50E4670059A84A /* Signup */,
+				6F6EEFF02D4E97B300D3405D /* Colors */,
+				6F6EEFED2D4E96D000D3405D /* Fonts */,
+				6F7F96192D4CDE9200D4178B /* ViewComponents */,
+				6F20EBB229AE045C002DFD49 /* Styles */,
+				6F7F96182D4CDE6C00D4178B /* Validation */,
 				6F20EB9729ADFD1D002DFD49 /* WelcomeView.swift */,
+				6F20EB9629ADFD1C002DFD49 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,13 +178,45 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		6F20EBB229AE045C002DFD49 /* Style */ = {
+		6F20EBB229AE045C002DFD49 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
 				6F20EBAC29AE03D3002DFD49 /* ButtonStyle.swift */,
-				6F20EBB029AE040F002DFD49 /* TextFieldStyle.swift */,
+				6F7F96162D4CD9B600D4178B /* TextFieldStyle.swift */,
 			);
-			path = Style;
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		6F6EEFED2D4E96D000D3405D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6F6EEFEE2D4E96D900D3405D /* AppFonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6F6EEFF02D4E97B300D3405D /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				6F6EEFF12D4E97BE00D3405D /* AppColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		6F7F96182D4CDE6C00D4178B /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				6F20EB9329ADFCF4002DFD49 /* FieldValidator.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		6F7F96192D4CDE9200D4178B /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F961A2D4CDE9C00D4178B /* RevealableSecureField.swift */,
+			);
+			path = ViewComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +247,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					6F20EB7529ADFB6C002DFD49 = {
 						CreatedOnToolsVersion = 14.2;
@@ -229,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F20EBA029ADFD1D002DFD49 /* Components in Resources */,
 				6F20EBBD29AE071A002DFD49 /* Localizable.strings in Resources */,
 				6F20EB8129ADFB6C002DFD49 /* Preview Assets.xcassets in Resources */,
 				6F20EB7E29ADFB6C002DFD49 /* Assets.xcassets in Resources */,
@@ -247,20 +295,24 @@
 				6F20EB9C29ADFD1D002DFD49 /* HomeView.swift in Sources */,
 				6F20EBA429ADFD93002DFD49 /* AuthenticationServiceProtocol.swift in Sources */,
 				6F20EBBA29AE058C002DFD49 /* SignupService.swift in Sources */,
-				6F20EBB129AE040F002DFD49 /* TextFieldStyle.swift in Sources */,
 				6F20EB9E29ADFD1D002DFD49 /* LoginView.swift in Sources */,
+				6F7F961B2D4CDE9C00D4178B /* RevealableSecureField.swift in Sources */,
 				6F20EBB829AE051F002DFD49 /* SignupResult.swift in Sources */,
 				6F20EB9F29ADFD1D002DFD49 /* SignupView.swift in Sources */,
 				6F20EB9D29ADFD1D002DFD49 /* WelcomeView.swift in Sources */,
 				6F20EBB429AE0497002DFD49 /* SignupServiceProtocol.swift in Sources */,
 				6F20EB9129ADFCE8002DFD49 /* SignupViewModel.swift in Sources */,
 				6F20EBA929ADFE96002DFD49 /* LoginResult.swift in Sources */,
+				6F6EEFEF2D4E96E400D3405D /* AppFonts.swift in Sources */,
 				6F20EBAB29AE0240002DFD49 /* AuthenticationService.swift in Sources */,
 				6F20EBB629AE04E8002DFD49 /* SignupData.swift in Sources */,
 				6F20EB9429ADFCF4002DFD49 /* FieldValidator.swift in Sources */,
 				6F20EB9229ADFCE8002DFD49 /* LoginViewModel.swift in Sources */,
+				6F7F96172D4CD9B600D4178B /* TextFieldStyle.swift in Sources */,
+				6F6EEFF22D4E97C200D3405D /* AppColors.swift in Sources */,
 				6F20EB7A29ADFB6C002DFD49 /* LoginTemplateApp.swift in Sources */,
 				6F20EBA729ADFE1C002DFD49 /* UserCredentials.swift in Sources */,
+				6F1573232D50E4620059A84A /* SignupOptionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -315,6 +368,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -343,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -375,6 +430,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

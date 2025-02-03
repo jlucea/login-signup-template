@@ -32,3 +32,8 @@ struct RevealableSecureField: View {
     }
     
 }
+
+#Preview {
+    RevealableSecureField("Password", text: .constant(""))
+        .padding(50)
+}

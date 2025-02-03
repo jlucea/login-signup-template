@@ -1,33 +1,24 @@
-/* 
-  Localizable.strings
-  LoginTemplate
 
-  Created by Jaime Lucea on 28/2/23.
-  
-*/
-
-
-/* Literals used in the welcome, signup and login screens */
-
-/* Welcome screen button labels */
-"LOGIN_BUTTON_LABEL" = "Acceder";
-"SIGNUP_BUTTON_LABEL" = "Registro";
-"SIGNUP_LATER_TEXT" = "Más tarde";
+/* Welcome screen */
+"WELCOME_TITLE" = "The only authentication template you'll ever need.";
+"SIGN_IN" = "Log in";
+"LOGIN_BUTTON_LABEL" = "Log in";
+"SIGNUP_BUTTON_LABEL" = "Create an account";
+"SIGNUP_LATER_TEXT" = "Continue without signing up";
 
 /* Signup screen */
 
 // Text field placeholders
-"PLACEHOLDER_NAME_TEXTFIELD" = "Nombre";
+"PLACEHOLDER_NAME_TEXTFIELD" = "Name";
 "PLACEHOLDER_EMAIL_TEXFIELD" = "Email";
-"PLACEHOLDER_PASSWORD_TEXTFIELD" = "Contraseña";
+"PLACEHOLDER_PASSWORD_TEXTFIELD" = "Password";
 
 // Signup button label
-"CREATE_ACCOUNT_BUTTON_LABEL" = "Crear cuenta";
-
-"LEGAL_WARNING_TEXT" = "Si continúas aceptas las condiciones de uso y la política de privacidad";
+"CREATE_ACCOUNT_BUTTON_LABEL" = "Create account";
+"LEGAL_WARNING_TEXT" = "By continuing you're accepting terms and conditions";
 
 // Validation error messages
-"VALIDATION_TEXT_NAME_REQUIRED" = "Es necesario indicar un nombre";
-"VALIDATION_TEXT_EMAIL" = "Email inválido";
-"VALIDATION_PASSWORD_LENGHT" = "Contraseña debe tener al menos 8 símbolos";
+"VALIDATION_TEXT_NAME_REQUIRED" = "A name is required";
+"VALIDATION_TEXT_EMAIL" = "Invalid email";
+"VALIDATION_PASSWORD_LENGHT" = "Password must be at least 8 characters long";
 "VALIDATION_PASSWORD_FORMAT" = "Password must contain at least symbol, a number and large and small letters";
